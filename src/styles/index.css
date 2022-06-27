@@ -1,12 +1,64 @@
+body {
+    background-image: url(https://fondosmil.com/fondo/29460.png);
+    color: rgb(46, 228, 173);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+}
 
-/* 
+input {
+    background-color: rgb(171, 199, 231);
+    color: black;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border-width: 10px black;
+    font-family: monospace;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}    
 
-*/
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#newTask {
+    height: 40px;
+    width: 400px;
+    margin-right: 9px;
+}
+
+
+#button1 {
+    background-color:rgb(180, 154, 154);
+    border-radius: 20px;
+    font-family:fantasy;
+}
+
+#button2 {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: red;
+    margin-left: 10px;
+}
+
+ul {
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+label{
+    font-size:large;
+}
+

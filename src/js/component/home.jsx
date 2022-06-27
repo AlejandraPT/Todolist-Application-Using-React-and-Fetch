@@ -1,25 +1,21 @@
 import React from "react";
+import Listado from "./listado.jsx";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import titulo from "../../img/titulo.png";
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
+		<>
+		<div className="container col-9 mb-3 text-center">
 			<p>
-				<img src={rigoImage} />
+				<img src={titulo} />
 			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<Listado />
 		</div>
+		</>
+
 	);
 };
 
